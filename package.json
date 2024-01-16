@@ -1,0 +1,47 @@
+{
+  "name": "@harsh_coder/rn-otp-input",
+  "version": "1.0.0",
+  "description": "A library to implement customized otp input in react native.",
+  "main": "dist/index.js",
+  "types": "lib/index.d.ts",
+  "exports": { 
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harsh-u-coder/rn-otp-input.git"
+  },
+  "keywords": [
+    "Otp Input",
+    "Validation",
+    "Authentication"
+  ],
+  "author": "Harsh Ughreja <harsh@coderscotch.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harsh-u-coder/rn-otp-input/issues"
+  },
+  "homepage": "https://github.com/harsh-u-coder/rn-otp-input#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.4",
+    "@types/react": "^18.2.48",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
