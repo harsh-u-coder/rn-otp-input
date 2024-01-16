@@ -1,5 +1,5 @@
 node_modules
 /dist
-/src
+src
 index.js
 index.ts

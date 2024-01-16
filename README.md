@@ -15,9 +15,9 @@ npm i @harsh_coder/rn-otp-input
 Customize based on your requrements
 
 
-| Column 1                           | Column 2                               | Column 3                               |
-| ---------------------------------- | -------------------------------------- | -------------------------------------- |
 | ![Image 1](./screen_shots/SS1.png) | ![Image 1](./screen_shots/SS2.png)     | ![Image 1](./screen_shots/SS3.png)     |
+| ---------------------------------- | -------------------------------------- | -------------------------------------- |
+| ![Image 1](./screen_shots/SS4.png) |
 
 ## Usage
 
