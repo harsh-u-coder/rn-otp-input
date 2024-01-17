@@ -20,22 +20,6 @@ Customize based on your requrements
 | ![Image 1](./screen_shots/SS4.png) |
 
 
-The following props are applicable for the component along with **props supported by react native `TextInput` component**
-
-| Prop                 | Type   | Optional | Default      | Description                                                                            |
-| -------------------- | ------ | -------- | ------------ | -------------------------------------------------------------------------------------- |
-| otpLength            | number | Yes      | 4            | Default OTP length is 4                                                                |
-| inputBoxStyles       | style  | Yes      | n/a          | Style for the input cells                                                              |
-| gap                  | number | Yes      | 10           | Gap between each input cell                                                            |
-| activeBorderColor    | string | Yes      | darkgrey     | Border color for focused / active input cell                                           |
-| borderColor          | string | Yes      | lightgrey    | Border color for input cell.                                                           |
-| borderWidth          | number | Yes      | 3            | Border width for input cell.                                                           |
-| placeholder          | string | Yes      | ''           | placeholder for input cell.                                                            |
-| keyboardType         | string | Yes      | default      | keyboard style based on your otp value type eg. number-pad, alphanumeric, etc...       |
-| onChange             | func   | Yes      | n/a          | onChange takes callback function which is return entered otp                           |
-| autoFocus            | bool   | Yes      | false        | Input should automatically get focus when the components loads                         |
-
-
 ## Usage
 
 ```jsx
@@ -73,3 +57,17 @@ export default App;
 
 ## Props
 
+The following props are applicable for the component
+
+| Prop                 | Type   | Optional | Default      | Description                                                                            |
+| -------------------- | ------ | -------- | ------------ | -------------------------------------------------------------------------------------- |
+| otpLength            | number | Yes      | 4            | Default OTP length is 4                                                                |
+| inputBoxStyles       | style  | Yes      | n/a          | Style for the input cells                                                              |
+| gap                  | number | Yes      | 10           | Gap between each input cell                                                            |
+| activeBorderColor    | string | Yes      | darkgrey     | Border color for focused / active input cell                                           |
+| borderColor          | string | Yes      | lightgrey    | Border color for input cell.                                                           |
+| borderWidth          | number | Yes      | 3            | Border width for input cell.                                                           |
+| placeholder          | string | Yes      | ''           | placeholder for input cell.                                                            |
+| keyboardType         | string | Yes      | default      | keyboard style based on your otp value type eg. number-pad, alphanumeric, etc...       |
+| onChange             | func   | Yes      | n/a          | onChange takes callback function which is return entered otp                           |
+| autoFocus            | bool   | Yes      | false        | Input should automatically get focus when the components loads                         |
